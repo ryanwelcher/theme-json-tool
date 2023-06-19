@@ -27,6 +27,7 @@ fs.watch( `${ working_dir }/json`, () => {
 	// Re-require the files.
 	base = require( './json/base.js' );
 	settings = require( './json/settings.js' );
+	styles = require( './json/styles.js' );
 	templateParts = require( './json/templateParts.js' );
 	templateParts = require( './json/templateParts.js' );
 	customTemplates = require( './json/customTemplates.js' );

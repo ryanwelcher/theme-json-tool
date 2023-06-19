@@ -58,7 +58,7 @@ function buildThemeJSON(
 		JSON.stringify( themeJSON ),
 		( err ) => {
 			if ( ! err ) {
-				console.log( 'Theme.json rebuilt' );
+				console.log( '🔥🔥🔥 theme.json updated. 🔥🔥🔥' );
 			}
 		}
 	);

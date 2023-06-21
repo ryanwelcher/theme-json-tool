@@ -1,14 +1,17 @@
 {
-	"name": "theme-json-builder",
+	"name": "@ryanwelcher/theme-json-builder",
 	"version": "1.0.0",
 	"description": "A tool to build theme.json files",
 	"main": "theme-json.js",
-	"scripts": {
-		"watch": "node ./theme-json.js"
+	"bin": {
+		"theme-json": "./theme-json.js"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
 		"decache": "^4.6.1"
+	},
+	"dependencies": {
+		"commander": "^11.0.0"
 	}
 }

@@ -41,11 +41,15 @@ function buildThemeJSON(
 		customTemplates,
 	};
 	// Write the file.
-	fs.writeFile(`${target}/theme.json`, JSON.stringify(themeJSON), (err) => {
-		if (!err) {
-			console.log('🔥🔥🔥 theme.json updated. 🔥🔥🔥');
+	fs.writeFile(
+		`${target}/theme.json`,
+		JSON.stringify(themeJSON, null, '\t'),
+		(err) => {
+			if (!err) {
+				console.log('🔥🔥🔥 theme.json updated. 🔥🔥🔥');
+			}
 		}
-	});
+	);
 }
 
 module.exports = {

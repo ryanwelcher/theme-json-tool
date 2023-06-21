@@ -8,10 +8,8 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
-		"decache": "^4.6.1"
-	},
 	"dependencies": {
-		"commander": "^11.0.0"
+		"commander": "^11.0.0",
+		"decache": "^4.6.1"
 	}
 }

@@ -2,14 +2,21 @@
 	"name": "@ryanwelcher/theme-json-builder",
 	"version": "1.0.1",
 	"description": "A tool to build theme.json files",
-	"main": "theme-json.js",
+	"main": "./theme-json.js",
+	"types": "./types/index.d.ts",
+	"type": "module",
 	"bin": {
 		"theme-json": "./theme-json.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "tsc --init"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"commander": "^11.0.0",
-		"decache": "^4.6.1"
+		"decache": "^4.6.1",
+		"typescript": "^5.1.3"
 	}
 }

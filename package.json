@@ -4,13 +4,11 @@
 	"description": "A tool to build theme.json files",
 	"main": "./theme-json.js",
 	"types": "./types/index.d.ts",
-	"type": "module",
 	"bin": {
 		"theme-json": "./theme-json.js"
 	},
 	"scripts": {
-		"build": "tsc",
-		"test": "tsc --init"
+		"build": "tsc"
 	},
 	"author": "",
 	"license": "ISC",

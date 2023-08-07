@@ -1,6 +1,6 @@
 {
 	"name": "@ryanwelcher/theme-json-builder",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "A tool to build theme.json files",
 	"main": "./theme-json.js",
 	"types": "./types/index.d.ts",
